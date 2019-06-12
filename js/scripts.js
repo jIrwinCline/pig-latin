@@ -12,8 +12,13 @@ function translate(input) {
           letterArr.splice(0,1);
           letterArr.push("y", "a", "y");
           var latinWord = letterArr.join('');
-          pigLatin = pigLatin + latinWord;
-          console.log(latinWord);
+          pigLatin = pigLatin + latinWord + " ";
+          console.log(pigLatin);
+        } else if(letterArr[0] === "a", "e", "i", "o", "u") {
+          letterArr.push("w", "a", "y");
+          var latinWord = letterArr.join('');
+          pigLatin = pigLatin + latinWord + " ";
+          console.log(pigLatin);
         }
     };
   };
