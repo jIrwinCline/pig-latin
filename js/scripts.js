@@ -30,6 +30,7 @@ function translate(input) {
             letterArr.push(latinWord2 + 'ay ');
             pigLatin = pigLatin + letterArr.join('');
             console.log(pigLatin);
+            n = letterArr.length
 
           } else if (letterArr[n] === vowel[x]) {
 
