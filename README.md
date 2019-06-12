@@ -1,28 +1,28 @@
-# _Leap Year_
+# _Pig Latin Translator_
 
-#### _A webpage that takes a year as input from the user and evaluates whether it is a leap year._
+#### _A webpage that takes a sentence as input from the user and returns it in pig latin._
 
 #### _**By Daniel Hongel and Jacob Irwin.**_
 
 ## Description
 
-_This website uses boolean logic to evaluate a year that is input by the user for the properties of a leap year. Expect results would be:_
+_This website takes a user sentence and returns it in pig latin._
 
-_The program should return when a year is not a leap year._
-* _Input Example: 1993_
-* _Output Example: false_
+_The program should return a word with yay on the end._
+* _Input Example: yes_
+* _Output Example: esyay_
 
-_The program should return 'true' for years divisible by 4, since those are leap years._
-* _Input Example: 2004_
-* _Output Example: true_
+_The program should return way on the end._
+* _Input Example: apple_
+* _Output Example: appleway_
 
-_The program should return 'false' for years divisible by 100, since those are not leap years._
-* _Input Example: 1900_
-* _Output Example: false_
+_The program should return quay on the end._
+* _Input Example: quick_
+* _Output Example: ickquay_
 
-_The program should return 'true' for years divisible by 400, since those are leap years._
-* _Input Example: 2000_
-* _Output Example: true_
+_The program should return ay after the string of consonants from the beginning of the word._
+* _Input Example: string_
+* _Output Example: ingstray_
 
 ## Setup/Installation Requirements
 
