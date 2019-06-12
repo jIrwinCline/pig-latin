@@ -8,7 +8,7 @@ function translate(input) {
         var letterArr = inputArr[i].split('');
         console.log(letterArr);
 
-        if(letterArr[i] === "y") {
+        if(letterArr[0] === "y") {
           letterArr.splice(0,1);
           letterArr.push("y", "a", "y");
           var latinWord = letterArr.join('');
